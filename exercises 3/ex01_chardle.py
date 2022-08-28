@@ -37,8 +37,8 @@ if letter_input == (word_input)[4]:
 
 if counting >= int(1):
     if counting == int(1):
-        print(counting, "instance of", letter_input, "found in", word_input)
+        print(counting, "instance of",letter_input, "found in", word_input)
     else:
-        print(counting, "instances of", letter_input, "found in", word_input)
+        print(counting, "instances of",letter_input, "found in", word_input)
 else:
-    print("No instances of", letter_input, "found in", word_input)
+    print("No instances of",letter_input, "found in", word_input)
