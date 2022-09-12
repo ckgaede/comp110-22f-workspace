@@ -1,4 +1,4 @@
-"""EX02 - One Shot Wordle"""
+"""EX02 - One Shot Wordle."""
 
 __author__ = "730483243"
 
@@ -8,7 +8,7 @@ letters: int = len(secret_word)
 word_input: str = input(f"What is your {letters}-letter guess? ")
 
 while len(word_input) != len(secret_word):
-    word_input: str = input(f"That was not {letters} letters! Try again: ")
+    word_input = input(f"That was not {letters} letters! Try again: ")
 
 
 WHITE_BOX: str = "\U00002B1C"
